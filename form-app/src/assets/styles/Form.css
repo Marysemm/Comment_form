@@ -1,0 +1,52 @@
+.comments__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 100px;
+    padding: 50px;
+    border: dashed 5px rgba(231, 119, 253, 0.588);
+}
+
+.comments__list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.comments__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.comments__column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.comments__column:first-of-type {
+    background-color: rgba(214, 146, 231, 0.63);
+    border-radius: 5px;
+}
+
+.comments__input-comment {
+    width: 500px;
+    height: 80px;
+    border: 1px solid rgb(197, 109, 255);
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.comments__button-submit {
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(226, 109, 255);
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
